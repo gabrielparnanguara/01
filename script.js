@@ -128,12 +128,5 @@ function mostraResultado() {
     caixaAlternativas.textContent = "";
 }
 
-function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
-historiaFinal += afirmacoes + “ “;
-atual++;
-mostraPergunta();
-}
-
 
 mostraPergunta();
