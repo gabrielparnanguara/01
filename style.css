@@ -9,7 +9,6 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,10 +25,6 @@ body {
 
 h1 {
     color: var(--cor-destaque);
-}
-
-h1, .caixa-perguntas, .caixa-resultado{
-    font-family: 'Chakra Petch', sans-serif;
 }
 
 button {
